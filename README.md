@@ -1,10 +1,10 @@
 # DeepSeqSLAM
-## A Trainable NN for Joint Global Description and Sequential Place Recognition
+## A Trainable Neural Network (NN) for Joint Global Description and Sequential Place Recognition
 
 <img src="https://user-images.githubusercontent.com/25828032/109748988-87dd6600-7c25-11eb-82c4-b8c3d298601a.png" />
 
-DeepSeqSLAM is a CNN + LSTM baseline architecture for state-of-the-art route-based place recognition. It leverages visual and positional time-series data for joint global description and sequential place inference in the context of simultaneous localization and mapping (SLAM) and autonomous driving research. Contrary to classical two-stage pipelines, *e.g.*, *match-then-temporally-filter*, this codebase is orders of magnitud faster, scalable and learns from a single traversal of a route,
-while accurately generalizing to multiple traversals of the same route under very different environmental conditions.
+DeepSeqSLAM is a ConvNN + LSTM baseline architecture for state-of-the-art route-based place recognition. It leverages visual and positional time-series data for joint global description and sequential place inference in the context of simultaneous localization and mapping (SLAM) and autonomous driving research. Contrary to classical two-stage pipelines (match-then-temporally-filter), DeepSeqSLAM is orders of magnitude faster, scalable and learns from a single traversal of a route,
+while accurately generalizing to multiple traversals of the same route under different environmental conditions.
 
 ---
 
